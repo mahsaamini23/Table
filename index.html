@@ -1,0 +1,60 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="stylesheet"  href="bootstrap.min.css">
+        <link rel="stylesheet"  href="bootstrap.rtl.min.css">
+    </head>
+    <body>
+        <div class="container" >
+            <div>
+                <form id="userForm" class="userForm border border-info ">
+                    <div class="d-flex flex-wrap">
+                        <div class="item col-6">
+                            <label for="first-name" class="label form-label">First Name:</label>
+                            <input type="text" class="control form-control" id="first-name" name="first-name" placeholder="Ali">
+                        </div>
+                        <div class="item col-6">
+                            <label for="last-name" class="label form-label">Last Name:</label>
+                            <input type="text" class="control form-control" id="last-name" name="last-name" placeholder="payande">
+                        </div>
+                        <div class="item col-12">
+                            <label for="email" class="label form-label">Email address:</label>
+                            <input type="email" class="control form-control" id="email" name="email" placeholder="name@example.com">
+                        </div>
+                        <div class="item col-6">
+                            <label for="code" class="label form-label">code:</label>
+                            <input type="tel" class="control form-control" id="code" placeholder="+21">
+                        </div>
+                        <div class="item col-6">
+                            <label for="phone" class="label form-label">Phone:</label>
+                            <input type="tel" class="control form-control" id="phone" placeholder="88375432">
+                        </div>
+                        <div class='container-btn ps-3'>
+                            <button type="submit"  class="btn_submit btn btn-primary px-4 userFormSubmit mt-3 ">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 ">
+                <table id="table" class="table table-light">
+                    <tr class="header">
+                        <th class="table-dark">id</th>
+                        <th class="table-dark">first-name</th>
+                        <th class="table-dark">last-name</th>
+                        <th class="table-dark">email</th>
+                        <th class="table-dark">code</th>
+                        <th class="table-dark">phone</th>
+                        <th class="table-dark" id="option">option</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+    </html>
